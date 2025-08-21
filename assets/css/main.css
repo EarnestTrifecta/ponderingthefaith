@@ -15,7 +15,7 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+		font:inherit;
 		vertical-align: baseline;
 	}
 .image.fit img {
@@ -1853,7 +1853,7 @@
 			}
 
 		.box .content {
-			padding: 3rem;
+			padding: 5% 20% 10% 20%;
 			
 		}
 
