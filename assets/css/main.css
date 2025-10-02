@@ -1684,11 +1684,12 @@
 				background-color: rgba(0, 0, 0, 0.125);
 			}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2, h3, h4, h5, h6, {
 		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 	}
+
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -1714,6 +1715,7 @@
 	h6 {
 		font-size: 0.7rem;
 	}
+
 
 	sub {
 		font-size: 0.8rem;
@@ -2021,7 +2023,7 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
+			box-shadow: inset 0 0 0 2px rgba(199, 193, 193, 0.25);
 			color: #555 !important;
 		}
 
@@ -3149,6 +3151,55 @@
 				border-color: rgba(0, 0, 0, 0.15);
 			}
 
+		.wrapper.style3a {
+			background-color: #3b3636;
+			color: #bfbfbf;
+			background-image: ;
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center;
+			position: relative;
+		}
+
+			.wrapper.style3a h7 {
+				color: #d6d5db;
+				font-weight: bold;
+				font-size: 3ch;
+			}
+
+			.wrapper.style3a input[type="submit"].alt,
+				.wrapper.style3a input[type="reset"].alt,
+				.wrapper.style3a input[type="button"].alt,
+				.wrapper.style3a button.alt,
+				.wrapper.style3a .button.alt {
+					background-color: transparent;
+					box-shadow: inset 0 0 0 2px rgba(221, 219, 219, 0.25);
+					color: #ffffff !important;
+				}
+
+					.wrapper.style3a input[type="submit"].alt:hover,
+					.wrapper.style3a input[type="reset"].alt:hover,
+					.wrapper.style3a input[type="button"].alt:hover,
+					.wrapper.style3a button.alt:hover,
+					.wrapper.style3a .button.alt:hover {
+						background-color: rgba(255, 255, 255, 0.075);
+					}
+
+					.wrapper.style3a input[type="submit"].alt:active,
+					.wrapper.style3a input[type="reset"].alt:active,
+					.wrapper.style3a input[type="button"].alt:active,
+					.wrapper.style3a button.alt:active,
+					.wrapper.style3a .button.alt:active {
+						background-color: rgba(255, 255, 255, 0.2);
+					}
+
+					.wrapper.style3a input[type="submit"].alt.icon:before,
+					.wrapper.style3a input[type="reset"].alt.icon:before,
+					.wrapper.style3a input[type="button"].alt.icon:before,
+					.wrapper.style3a button.alt.icon:before,
+					.wrapper.style3a .button.alt.icon:before {
+						color: #999999;
+					}
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
@@ -3256,7 +3307,7 @@
 				.wrapper.style3 input[type="button"].special,
 				.wrapper.style3 button.special,
 				.wrapper.style3 .button.special {
-					background-color: #8a4680;
+					background-color: #6422a1;
 					color: #ffffff !important;
 				}
 
