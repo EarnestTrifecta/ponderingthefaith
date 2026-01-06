@@ -1679,6 +1679,9 @@
 		margin: 0 0 2rem 0;
 	}
 
+		.weekly {
+			margin: 0 0 0 0;
+		}
 		p.special {
 			text-transform: uppercase;
 			font-size: .75rem;
